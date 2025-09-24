@@ -22,7 +22,7 @@ Numpy
 
 You can install the necessary Python libraries using pip:
 
-Bash
+
 
 pip install opencv-python numpy
 You will also need the Haar Cascade XML file for face detection. Download haarcascade_frontalface_default.xml and place it in the same directory as the scripts. This file is commonly available in the OpenCV library's data folder or can be found online.
@@ -37,7 +37,7 @@ Change the sub_data variable to the name of the person whose face you are collec
 
 Run the script from your terminal. It will open your webcam and start capturing 100 images of your face.
 
-Bash
+
 
 python data_collector.py
 A new folder with the name you specified (e.g., datasets/steve) will be created, containing the captured images.
@@ -49,7 +49,7 @@ Once you have collected a dataset for all the individuals, you can train the rec
 
 Run the main script from your terminal.
 
-Bash
+
 
 python main.py
 The script will load all the images from the datasets folder, train the model, and then open the webcam.
@@ -78,3 +78,7 @@ File Structure
 
 demo:
 <img width="1919" height="1079" alt="Screenshot 2025-09-24 195631" src="https://github.com/user-attachments/assets/43defce8-f88b-4ace-89e4-f6a618f01ebf" />
+<img width="1429" height="1079" alt="Screenshot 2025-09-24 195700" src="https://github.com/user-attachments/assets/94361acd-704b-46f4-b84a-5127fe1cc9e2" />
+<img width="1510" height="1079" alt="Screenshot 2025-09-24 195711" src="https://github.com/user-attachments/assets/9a3c84a5-3c22-4a33-997f-c73a2415e6ff" />
+
+
